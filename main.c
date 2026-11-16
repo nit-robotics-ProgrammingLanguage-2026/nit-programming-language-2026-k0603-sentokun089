@@ -5,7 +5,6 @@ int main(void)
     int n;
     scanf("%d", &n);
 
-    // nが負のときだけ「NG」を表示する（0のときは0）
     if (n < 0)
     {
         printf("NG");
